@@ -5,6 +5,7 @@ const catPic = document.getElementById("cat-pic");
 const meow = document.getElementById("meow");
 const horsePic = document.getElementById("horse-pic");
 const neigh = document.getElementById("neigh");
+const lastPicked = document.getElementById("last-picked");
 // initialize state
 
 // set event listeners 
@@ -14,12 +15,16 @@ const neigh = document.getElementById("neigh");
 
 dogPic.addEventListener('click', () => {
   bark.play();
+  lastPicked.textContent = "Dog was last picked.";
 });
 
 catPic.addEventListener('click', () => {
   meow.play();
+  lastPicked.textContent = "Cat was last picked.";
 });
 
 horsePic.addEventListener('click', () => {
   neigh.play();
+  lastPicked.textContent = "Horse was last picked.";
 });
+

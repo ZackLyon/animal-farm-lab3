@@ -1,1 +1,18 @@
 /* add home page styles here */
+.animal-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#dog-pic, #cat-pic, #horse-pic {
+margin: 5px;
+}
+
+img, section {
+  border-radius: 25px;
+}
+
+#last-picked {
+  font-size: 2em;
+}
+
+
