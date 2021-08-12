@@ -4,10 +4,16 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 #dog-pic, #cat-pic, #horse-pic {
-margin: 5px;
+margin: 8px;
+transition: all 0.05s ease-in-out;
+border-radius: 25px;
 }
 
-img, section {
+#dog-pic:hover, #cat-pic:hover, #horse-pic:hover {
+  border: 5px hsla(0, 100%, 77%, 1) solid;
+}
+
+section {
   border-radius: 25px;
 }
 
