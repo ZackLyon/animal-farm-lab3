@@ -65,6 +65,10 @@ h2 {
     font-size: 1.8rem;
     font-weight: bold;
 }
+.animal-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 .gutter-right {
     margin-right: 20px;
